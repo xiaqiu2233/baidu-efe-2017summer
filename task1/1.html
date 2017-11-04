@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #all{
+            margin-left:26%;
+            margin-right:16%;
+            height:100%;
+            
+        }
+        #part1{
+            border: 2px solid #d3d3d3;
+            padding:10px;
+            min-height:500px;
+            margin-bottom: 30px;
+        }
+        #part2{
+            border: 2px solid #d3d3d3;
+            padding:10px;
+            margin-bottom: 20px;
+        }
+        #part3{
+            display: flex;
+            justify-content:space-between;            
+            border: 2px solid #d3d3d3;
+            padding:10px;
+            margin-bottom: 20px;
+        }
+        .box{
+            height: 100px;
+            width:100px;
+            margin-right:10px;
+            border: 2px solid #d3d3d3;
+            background-color: #a9a9a9;
+            margin-bottom: 10px;
+        }
+        .box1{
+            float:left;
+        }
+        .box2{
+            float:right;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .flex{
+            display: flex;
+            justify-content:space-between;
+            margin-bottom: 20px;
+        }
+        .rect{
+            width:100%;
+            height:100px;
+            border: 2px solid #d3d3d3;
+            background-color: #a9a9a9;
+            display: inline-block;
+        }
+        .halfRect{
+            margin-left:10px;            
+        }
+        #grail{
+            margin-top:20px;
+        }
+        #top{
+            height: 50px;
+            width:auto;
+            margin-bottom: 10px;
+            border: 2px solid #d3d3d3;
+            background-color: #a9a9a9;
+        }
+        /* 双飞翼 */
+        #center{
+            float:left;
+            width:100%;
+            min-height:30px; 
+            background-color: #F08383; /*粉色*/
+            margin-bottom: 40px;
+        }
+        #center .main-wrap{
+            margin-left:90px;  /*与col-sub产生10像素距离*/
+            margin-right:90px; /*与col-extra产生10像素距离*/
+            background-color: #a9a9a9; /*灰色*/
+            min-height:30px;
+        }
+        #left{
+            float:left; 
+            width:80px; 
+            min-height:30px; 
+            background-color: rgb(38, 170, 12);/*绿色*/
+            margin-left:-100%;
+        }
+        #right{
+            float:left; 
+            width:80px; 
+            min-height:30px; 
+            background-color: rgb(231, 188, 47);/*黄色*/
+            margin-left:-80px;
+        }
+        #bottom{
+            height: 50px;
+            width:auto;
+            border: 2px solid #d3d3d3;
+            background-color: #a9a9a9;
+        }
+        #p2-left{
+            float:left;
+            margin-left:-100%;
+            margin-top:20px;
+            width:100px;
+            height: 100px;
+            margin-right:15px;
+            border: 2px solid #d3d3d3;
+            background-color: #a9a9a9;
+        }
+        #p2-right{
+            float:left;
+            width:100%;
+            margin-left:119px;
+            margin-top:20px;
+            width:auto;
+            height: auto;
+            margin-right:15px;
+        }
+        .block3{
+            width:100px;
+            height: 100px;
+            border: 2px solid #d3d3d3;
+            background-color: #a9a9a9;
+        }
+        #part4{
+            width:auto;
+            min-height: 30px;
+            border:1px solid grey;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="all">
+        <div id="part1">
+            <div>
+                <div class="box box1"></div>
+                <div class="box box1"></div>
+                <div class="box box1"></div>
+            </div>
+            <div class="clearfix">
+                <div class="box box2"></div>
+                <div class="box box2"></div>
+                <div class="box box2"></div>
+            </div>
+            <div class="clearfix flex">
+                <div class="rect"></div>
+            </div>
+            <div class="flex">
+                <div class="rect"></div>
+                <div class="rect halfRect"></div>
+            </div>
+            <div class="flex">
+                <div class="rect"></div>
+                <div class="rect halfRect"></div>
+                <div class="rect halfRect"></div>
+            </div>
+            <div class="flex">
+                <div class="rect"></div>
+                <div class="rect halfRect"></div>
+                <div class="rect halfRect"></div>
+                <div class="rect halfRect"></div>
+            </div>
+            <div id="grail">
+                <div id="top"></div>
+                <div id="container">
+                    <div id="center">
+                        <div class="main-wrap">
+                        我是主列，出来吧！
+                        </div>
+                    </div>
+                    <div id="left">我是左列</div>
+                    
+                    <div id="right">我是右列</div>
+                    <div class="clearfix" id="bottom"></div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="part2">
+            <div id="p2-right">
+                <div class="wrap">
+                    我是主列，出来吧！北戴河萨顿问问得我为好的温柔黑屋 德文IQ而后完全儿微微娃娃亲属第问寒问暖开始都是蝶舞高度上
+                    我是主列，出来吧！北戴河萨顿问问得我为好的温柔黑屋 德文IQ而后完全儿微微娃娃亲属第问寒问暖开始都是蝶舞高度上
+                    我是主列，出来吧！北戴河萨顿问问得我为好的温柔黑屋 德文IQ而后完全儿微微娃娃亲属第问寒问暖开始都是蝶舞高度上
+                    我是主列，出来吧！北戴河萨顿问问得我为好的温柔黑屋 德文IQ而后完全儿微微娃娃亲属第问寒问暖开始都是蝶舞高度上
+                    我是主列，出来吧！北戴河萨顿问问得我为好的温柔黑屋 德文IQ而后完全儿微微娃娃亲属第问寒问暖开始都是蝶舞高度上
+                    我是主列，出来吧！北戴河萨顿问问得我为好的温柔黑屋 德文IQ而后完全儿微微娃娃亲属第问寒问暖开始都是蝶舞高度上
+                </div>
+            </div>
+            <div id="p2-left"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div id="part3">
+            <div class="block3"></div>
+            <div class="block3"></div>
+            <div class="block3"></div>
+        </div>
+        
+    </div>
+    <div id="part4">
+    </div>
+</body>
+</html>
