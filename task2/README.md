@@ -1,12 +1,12 @@
-##第一部分
+## 第一部分
 
-###代码编写
+### 代码编写
 
 参考任务关联文件，第二阶段设计稿的两张设计稿，工作量整体预估为4-6小时，分两天完成。
 
 ![1.img](https://github.com/xiaqiu2233/baidu-efe-2017summer/blob/master/task2/design/1.png)
 
-####说明及要求
+#### 说明及要求
 
 1、仅需要实现HTML及CSS部分的编码，不涉及JavaScript部分；只需要实现设计稿的样式，不用实现交互。轮播图及tab切换等都先忽略功能及交互，做成静态展现即可。
 2、最上方的黑色导航背景部分宽度为100%自适应，Banner的左侧色块也是向左自适应延伸，右侧图片在浏览器宽度满足的情况下尽多显示，当浏览器宽度超过图片宽度时，图片右侧也用左侧的颜色进行填充
@@ -20,21 +20,27 @@
 10、设计稿中的图片资源可以直接使用设计稿切图，也可以自己寻找尺寸相同的图片
 11、设计稿中的文字可以直接使用设计稿中的文字，也可以随意写字。
 
-##第二部分
+## 第二部分
 
-###阅读学习
+### 阅读学习
 
 每日利用1-2小时时间阅读以下材料：
+
 [EFE HTML编码规范](https://github.com/ecomfe/spec/blob/master/html-style-guide.md)
+
 [EFE CSS编码规范](https://github.com/ecomfe/spec/blob/master/css-style-guide.md)
+
 [精简高效的CSS命名准则/方法](https://www.zhangxinxu.com/wordpress/2010/09/%E7%B2%BE%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84css%E5%91%BD%E5%90%8D%E5%87%86%E5%88%99%E6%96%B9%E6%B3%95/)
+
 [网易编码规范](https://nec.netease.com/standard)
+
 [HTML和CSS高级指南之二——定位详解 编码练习](https://www.w3cplus.com/css/advanced-html-css-lesson2-detailed-css-positioning.html)
+
 利用1-2小时时间，基于任务14的交流心得，对于任务12进行重写，请忽视（或者删掉）之前的代码及资源，重头编码
 
-##第三部分
+## 第三部分
 
-###编码学习
+### 编码学习
 
 基于之前的HTML任务，完成以下交互功能
 
@@ -78,5 +84,5 @@ __4. 实现自定义样式下拉菜单Select并实现联动__
 英国：伦敦、利物浦、曼彻斯特
 以上任务代码放在Github或codepen等上。
 
-###阅读练习
+### 阅读练习
 [JavaScript编码规范](https://github.com/ecomfe/spec/blob/master/javascript-style-guide.md)
